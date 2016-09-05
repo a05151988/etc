@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="basic" label="CONFIG_BASIC_LABEL" description="">
+		<field name="allow_ips" type="textarea" label="CONFIG_BASIC_ALLOW_IPS_LABEL" description="CONFIG_BASIC_ALLOW_IP_DESC"/>
+	</fieldset>
+</config>

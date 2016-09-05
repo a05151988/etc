@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>COM_ETC</name>
+	<version>0.0.1</version>
+	<creationDate>August 2016</creationDate>
+	<author>Ryan Yu</author>
+	<authorEmail>a05151988@gmail.com</authorEmail>
+	<authorUrl>http://www.etcswtest.org.tw</authorUrl>
+	<description>COM_ETC_DESC</description>
+	<scriptfile>script.php</scriptfile>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>etc.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<folder>controllers</folder>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+        <languages folder="site/language">
+			<language tag="zh-TW">zh-TW/zh-TW.com_etc.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_etc.ini</language>
+        </languages>
+	<administration>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>etc.php</filename>
+			<filename>controller.php</filename>
+			<filename>config.xml</filename>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>controllers</folder>
+		</files>
+		<languages folder="admin/language">
+			<language tag="zh-TW">zh-TW/zh-TW.com_etc.ini</language>
+			<language tag="zh-TW">zh-TW/zh-TW.com_etc.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
